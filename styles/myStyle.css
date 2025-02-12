@@ -1,16 +1,19 @@
 /* גוף האתר - עיצוב שגלובאלי לכל הדפים באתר */
-html, body{
+html,
+body {
     /* הגדרה שאמורה למנוע גלילה בדפדפנים בעייתיים */
     overflow-x: hidden;
     overflow-y: hidden;
 }
 
 body {
-    background-image: linear-gradient(#F5812A,  #FE852F);
     background-image: url(../images/main/Pizza-stone.png);
-    background-size: cover;  /* Ensures the image covers the entire background without distortion */
-background-position: center; /* Centers the image */
-background-repeat: no-repeat; /* Prevents repeating */
+    background-size: cover;
+    /* Ensures the image covers the entire background without distortion */
+    background-position: center;
+    /* Centers the image */
+    background-repeat: no-repeat;
+    /* Prevents repeating */
     font-family: 'Assistant', sans-serif;
 
     /* overflow: hidden; */
@@ -23,7 +26,7 @@ background-repeat: no-repeat; /* Prevents repeating */
 }
 
 /*חלונית אודות*/
-#hitImg{
+#hitImg {
     margin-top: 10px;
     width: 100px;
     height: 80px;
@@ -32,14 +35,14 @@ background-repeat: no-repeat; /* Prevents repeating */
 
 }
 
-#centerImg{
+#centerImg {
     margin-top: 25px;
     margin-bottom: 25px;
     width: 90px;
     height: 100px;
 
     margin-right: 20px;
- 
+
 }
 
 .btn-bd-modal {
@@ -54,4 +57,3 @@ background-repeat: no-repeat; /* Prevents repeating */
 #aboutModal {
     max-width: 98vw;
 }
-

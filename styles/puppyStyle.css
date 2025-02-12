@@ -23,6 +23,12 @@
     max-height: 100svh;
 }
 
+#peelPic{
+    max-width: 100vw;
+    left: 17%;
+    top: 41%;
+}
+
 #botPic {
     max-width: 100%;
 
@@ -82,6 +88,13 @@ h1 {
     color: white;
     font-size: 220%;
     font-weight: 700;
+}
+
+/* כותרת משנה */
+h2{
+    color: white;
+    font-size: 200%;
+    font-weight: 500;
 }
 
 /*גרפיקה של עיגול לרקע*/
@@ -170,7 +183,7 @@ h3 {
 #enterH1{
     margin-top: 23vh;
     margin-top: 23svh;
-    font-size: 250%;
+    font-size: 280%;
 
 }
 
