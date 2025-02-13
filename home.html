@@ -9,7 +9,7 @@
     <meta name="author" content="Adi Yair" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Pizza Making App</title>
+    <title>CrustCoach</title>
 
     <!-- CSS -->
     <link href="styles/bootstrap.rtl.css" rel="stylesheet" />
@@ -37,7 +37,7 @@
             <!-- תמונה למצב מאונך -->
             <img id="topPic" src="images\main\Pizza-hor.png" alt="" class="home-img">
             <!-- תמונה למצב מאוזן -->
-            <img id="sidePic" src="images\main\Pizza-ver.png" alt="" class="home-img">
+            <img id="sidePic" src="images\main\Pizza-ver.png" alt="" class="home-img" dir="ltr">
         </div>
     </div>
 
@@ -74,9 +74,11 @@
         <div class="col">
             <!-- תמונה של מגש מתחת לכפתור -->
             <img id="peelPic" src="images\main\Pizza-peel.png" alt="" class="home-img">
+            <!-- <img id="sidePic" src="images\main\Pizza-peel.png" alt="" class="home-img"> -->
+
 
             <div class="container text-center">
-                <a id="enterBtn" href="weekSelect.html" role="button" class="btn btn-primary btn-home-primary">Start</a>
+                <a id="enterBtn" href="part1.html" role="button" class="btn btn-primary btn-home-primary">Start</a>
             </div>
         </div>
     </div>
@@ -87,7 +89,8 @@
         <!-- טור לשורה אחת אחידה של כפתורים -->
         <div class="col">
             <div id="btnCol" class="text-center">
-                <a href="#" role="button" class="btn btn-secondary btn-home-secondary">Select Part &#x1f355;</a>
+                <a href="selectPart.html" role="button" class="btn btn-secondary btn-home-secondary">Select Part
+                    &#x1f355;</a>
                 <a href="#" role="button" class="btn btn-secondary btn-home-secondary">Settings ⚙️</a>
                 <a href="#" role="button" class="btn btn-secondary btn-home-secondary" data-bs-toggle="modal"
                     data-bs-target="#aboutModal">Credit &#x1f91d;</a>
@@ -97,19 +100,6 @@
             </div>
         </div>
     </div>
-
-
-    <!-- הלוגו של המרכז -->
-    <!-- הוא לא בתוך שורה כי המיקום שלו במסך קבוע ולא חלק מההיררכיה -->
-
-    <!-- <img id="logoPic" src="images\main\Logo2.png" alt="" style="z-index: -2;"> -->
-
-
-    <!-- Footer -->
-    <!-- <span id="logoPic" style="direction: rtl;">
-        תוצר זה פותח במסגרת פרויקט גמר לתואר ראשון ב<a href="http://www.hit.ac.il/telem/overview">פקולטה לטכנולוגיות
-            למידה</a>,HIT | <a href="http://www.hit.ac.il/telem/overview">למידע נוסף >></a>
-    </span> -->
 
 
     <!-- Modal -->
