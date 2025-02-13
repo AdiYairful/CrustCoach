@@ -26,32 +26,14 @@ body {
 }
 
 /*חלונית אודות*/
-#hitImg {
-    margin-top: 10px;
-    width: 100px;
-    height: 80px;
-
-    margin-right: 10px;
-
-}
-
-#centerImg {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    width: 90px;
-    height: 100px;
-
-    margin-right: 20px;
-
-}
 
 .btn-bd-modal {
     color: white;
-    background-color: #F5812A;
+    background-color: #ffffff;
 }
 
 #aboutWindow {
-    height: 500px;
+    max-height: 90svh;
 }
 
 #aboutModal {

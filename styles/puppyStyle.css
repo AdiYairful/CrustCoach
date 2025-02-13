@@ -39,7 +39,7 @@
 
     /* תכונות ייחודיות */
     left: -6.5%;
-    bottom: -5px;
+    bottom: -10px;
     transform: translate(-50%, 35%);
     margin: -15px auto;
     padding-bottom: 20px;
@@ -123,8 +123,8 @@ h2{
 
 /*כותרת*/
 h3 {
-    color: #FD8231;
-    font-size: 120%;
+    color: #000000;
+    font-size: 150%;
     font-weight: 700;
 
     /*דינאמי*/
@@ -145,8 +145,8 @@ h3 {
     padding: 10px;
     /*קו מתאר*/
     border-width: 10px;
-    border: 2px solid #ffffff;
-    box-shadow: 3px 3px 4px #ffffff;
+    border: 2px solid #000000;
+    box-shadow: 3px 3px 4px #000000;
 
     /*דינאמי*/
     width: 35vw;
