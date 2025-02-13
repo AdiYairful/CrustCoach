@@ -74,11 +74,8 @@
 
 /* הטור הימני/עליון - כתום */
 #rightCol {
-    /* color: white; */
-    /* background-image: linear-gradient(#F5812A,  #FE852F); */
     font-size: 120%;
     font-weight: 600;
-    direction: rtl;
     padding: 20px;
 
     /*דינאמי*/
@@ -137,22 +134,66 @@ h3 {
 /* כפתורים לדף בחירת שבוע*/
 .btn-week-secondary {
     /*טקסט*/
-    color: #FC6542;
+    color: #ffffff;
+    -webkit-text-stroke: 1px black;
     text-align: center;
     font-size: 150%;
-    font-weight: 700;
+    font-weight: 800;
     /*צורה*/
     border-radius: 15px;
     background-color: #ffffff;
     padding: 10px;
     /*קו מתאר*/
     border-width: 10px;
-    border: 2px solid #FD8231;
-    box-shadow: 3px 3px 4px #8e3900a3;
+    border: 2px solid #ffffff;
+    box-shadow: 3px 3px 4px #ffffff;
 
     /*דינאמי*/
     width: 35vw;
+    height: 15vh;
     margin: 4vw;
+}
+
+#btn01 {
+    background-image: url(../images/main/Button1-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#btn02 {
+    background-image: url(../images/main/Button2-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#btn03 {
+    background-image: url(../images/main/Button3-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#btn04 {
+    background-image: url(../images/main/Button4-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#btn05 {
+    background-image: url(../images/main/Button5-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#btn06 {
+    background-image: url(../images/main/Button6-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* כפתורים */
