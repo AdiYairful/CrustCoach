@@ -335,7 +335,7 @@ h3 {
     }
 
     #enterBtn {
-        transform: translate(-160%,8%);
+        transform: translate(-170%,8%);
     }
 
     #enterH1{
@@ -425,6 +425,15 @@ h3 {
         display: none;
     }
 
+    #peelPic{
+        max-width: 70vw;
+        left: 32%;
+        top: 42%;
+        transform: scaleX(1.2);
+
+    }
+    
+
     #circle {
         display: none;
     }
@@ -439,13 +448,13 @@ h3 {
 
         width: 250px;
         height: 250px;
-        font-size: 400%;
+        font-size: 500%;
     }
 
     #enterH1{
         margin-top: 30vh;
         margin-top: 30svh;
-        font-size: 300%;
+        font-size: 600%;
     
     }
 
@@ -476,7 +485,7 @@ h3 {
         min-height: 35vh;
         min-height: 35svh;
         width: 100vw;
-        transform: translate(0%, 0%);
+        transform: translate(4%, 0%);
 
         padding-top: 5vh;
     }
@@ -528,6 +537,14 @@ h3 {
         display: block
     }
 
+    #peelPic{
+        max-height: 90vh;
+        max-height: 60%;
+        transform: scaleX(-0.85);
+        left: -10%;
+        top: 31.5%;
+    }
+
     #botPic {
         display: block;
         transform: translate(8.5%, 1%);
@@ -539,19 +556,26 @@ h3 {
 
     /* כפתור ראשי - יישור */
     #enterBtn {
-        margin-left: 40vw;
+        width: 300px;
+        height: 300px;
+        font-size: 500%;
 
-        width: 220px;
-        height: 220px;
-        font-size: 350%;
+        transform: translate(-120%, 25%);
+
     }
 
     #enterH1{
-        margin-left: 40vw;
+        margin-top: 4svh;
+        font-size: 600%;
 
-        margin-top: -40px;
-        font-size: 340%;
-    
+        transform: translate(-20%, 0%);
+
+    }
+
+    #enterH2{
+        font-size: 300%;
+        transform: translate(-20%, 0%);
+
     }
 
     /* כפתורי משנה - יישור */
@@ -562,10 +586,12 @@ h3 {
         margin: 1.2vw;
 
         font-size: 200%;
+        transform: translate(-30%, -400%);
+
     }
 
     #btnCol {
-        width: 50%;
+        width: 40%;
         transform: translate(90%, 0%);
     }
 
@@ -679,7 +705,16 @@ h3 {
     }
 
     #sidePic {
-        display: block
+        display: block;
+        height: 100vh;
+    }
+
+    #peelPic{
+        max-height: 90vh;
+        max-height: 60%;
+        transform: scaleX(-0.85);
+        left: -15%;
+        top: 31.5%;
     }
 
     #botPic {
@@ -692,8 +727,28 @@ h3 {
         display: none;
     }
 
+    #enterH1{
+        margin-top: 4svh;
+
+        font-size: 800%;
+        transform: translate(-20%, 0%);
+
+    }
+
+    #enterH2{
+        font-size: 400%;
+        transform: translate(-20%, 0%);
+
+    }
+
     /* כפתור ראשי - יישור */
     #enterBtn {
+
+        width: 500px;
+        height: 500px;
+        font-size: 800%;
+
+        transform: translate(-185%,5%);
         margin-top: 12svh;
         margin-left: 35vw;
     }
@@ -707,8 +762,8 @@ h3 {
     }
 
     #btnCol {
-        width: 50%;
-        transform: translate(86%, 0%);
+        width: 40%;
+        transform: translate(66%, -110%);
     }
 
     /*דף בחירת השבוע*/
@@ -718,7 +773,8 @@ h3 {
         /*דינאמי*/
         height: 90vh;
         height: 100svh;
-        transform: translate(140%, 0%);
+        max-width: 40svw;
+        transform: translate(148%, 0%);
 
     }
 
@@ -727,6 +783,7 @@ h3 {
         /*דינאמי*/
         height: 90vh;
         height: 100svh;
+        max-width: 60svw;
         transform: translate(-75%, 0%);
 
     }
