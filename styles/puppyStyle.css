@@ -131,6 +131,12 @@ h3 {
     padding-top: 20px;
 }
 
+h4{
+    color: #ffffff;
+    font-weight: 600;
+
+}
+
 /* כפתורים לדף בחירת שבוע*/
 .btn-week-secondary {
     /*טקסט*/
